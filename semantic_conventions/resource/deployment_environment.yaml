@@ -10,3 +10,5 @@ groups:
           Name of the [deployment environment](https://en.wikipedia.org/wiki/Deployment_environment)
           (aka deployment tier).
         examples: ['staging', 'production']
+        # Previously known names.
+        aliases: ['environment']

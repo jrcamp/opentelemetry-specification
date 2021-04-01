@@ -96,3 +96,9 @@ groups:
         note: >
           The prefix of the service SHOULD match the one specified in `cloud.provider`.
         examples: ['aws_ec2', 'azure_vm', 'gcp_compute_engine']
+        # Previously known names.
+        aliases: ['cloud.infrastructure_service']
+        # Values could also be remapped.
+        value_aliases:
+          gcp_app_engine: gcpappengine
+          gcp_cloud_run: gcpcloudrun
